@@ -38,8 +38,8 @@ python face_blur.py --image images/input.jpg --output images/output.jpg
 ## **Results:**
 This implementation is effective at detecting faces and applying a blur effect. Below is an example of the input and output:
 
-![JPEG of input image](example_01.jpeg)
-![JPEG of ouput image(Blurred Faces)](example_02.jpeg)
+![JPG of input image](images/input.jpg)
+![JPG of ouput image(Blurred Faces)](images/output.jpg)
 
 
 ## **The limitations**
