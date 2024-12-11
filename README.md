@@ -33,3 +33,15 @@ This project implements a simple Python program to detect faces in images and ap
 ## **Commands to run the face blur program**
 ```bash
 python face_blur.py --image images/input.jpg --output images/output.jpg
+```
+
+## **Results:**
+This implementation is effective at detecting faces and applying a blur effect. Below is an example of the input and output:
+
+![JPEG of input image](example_01.jpeg)
+![JPEG of ouput image(Blurred Faces)](example_02.jpeg)
+
+
+## **The limitations**
+This technique relies on Haar Cascade's face detection accuracy, which may fail in poor lighting or with occluded faces.
+Gaussian blur is a basic obfuscation technique. For sensitive applications, encryption or advanced anonymization might be needed.
