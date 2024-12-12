@@ -32,15 +32,13 @@ This project implements a simple Python program to detect faces in images and ap
 
 ## **Commands to run the face blur program**
 ```bash
-python face_blur.py --image images/input.jpg --output images/output.jpg
+python face_blur.py --output images/output.jpg
 ```
 
 ## **Results:**
-This implementation is effective at detecting faces and applying a blur effect. Below is an example of the input and output:
+This implementation is effective at detecting faces and applying a blur effect. Below is an example of the output:
 
-![JPG of input image](images/input.jpg)
 ![JPG of ouput image(Blurred Faces)](images/output.jpg)
-
 
 ## **The limitations**
 This technique relies on Haar Cascade's face detection accuracy, which may fail in poor lighting or with occluded faces.
