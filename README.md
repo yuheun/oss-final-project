@@ -38,7 +38,8 @@ python face_blur.py --output images/output.jpg
 ## **Results:**
 This implementation is effective at detecting faces and applying a blur effect. Below is an example of the output:
 
-![JPG of ouput image(Blurred Faces)](images/output.jpg)
+![JPG of ouput image(Blurred Faces)](https://raw.githubusercontent.com/yuheun/oss-final-project/main/oss%20output%20image.png)
+
 
 ## **The limitations**
 This technique relies on Haar Cascade's face detection accuracy, which may fail in poor lighting or with occluded faces.
